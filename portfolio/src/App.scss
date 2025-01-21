@@ -1,0 +1,60 @@
+@import './styles/variables.scss';
+
+.App {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .large-block {
+    width: 80%;
+    height: 80%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding-left: 2%;
+  }
+  
+  .rectangle {
+    width: 45%;
+    height: 45%;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 2%;
+  }
+
+  .main-content {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+  }
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import { FacebookOutlined } from '@ant-design/icons';
+import { LinkedinOutlined } from '@ant-design/icons';
 
 const Header: React.FC = () => {
   return (
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         </ul>
       </nav>
       <div className="header-section social">
-        <FacebookOutlined style={{ fontSize: '24px', color: '#333' }} />
+        <LinkedinOutlined style={{ fontSize: '24px', color: '#333' }} />
       </div>
     </header>
   );
